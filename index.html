@@ -30,16 +30,18 @@
         </div>
       </div>
 
-      <nav>
-        <div class="container">
-          <ul>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">EM DESTAQUE</a></li>
-            <li><a href="#">PROMOÇÕES</a></li>
-            <li><a href="#">CONTATO</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div id="nav-container">
+        <nav>
+          <div class="container">
+            <ul class="nav-list">
+              <li><a href="#">SOBRE</a></li>
+              <li><a href="#emphasis-cars">EM DESTAQUE</a></li>
+              <li><a href="#promotions-cars">PROMOÇÕES</a></li>
+              <li><a href="#contact-section">CONTATO</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <div id="carousel-imgs">
@@ -47,6 +49,177 @@
       <img src="./assets/slide2.png" alt="." />
       <img src="./assets/slide3.png" alt="." />
     </div>
+
+    <section id="emphasis-cars">
+      <div class="container">
+        <h2>Em destaque</h2>
+
+        <ul class="section-ul">
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <strong>R$ 75.000,00</strong>
+            <button type="button">Tenho interesse</button>
+          </li>
+
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <strong>R$ 75.000,00</strong>
+            <button type="button">Tenho interesse</button>
+          </li>
+
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <strong>R$ 75.000,00</strong>
+            <button type="button">Tenho interesse</button>
+          </li>
+
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <strong>R$ 75.000,00</strong>
+            <button type="button">Tenho interesse</button>
+          </li>
+
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <strong>R$ 75.000,00</strong>
+            <button type="button">Tenho interesse</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="promotions-cars">
+      <div class="container">
+        <h2>Promoções</h2>
+
+        <ul class="section-ul">
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <div>
+              <span>R$ 100.000,00</span>
+              <strong>R$ 75.000,00</strong>
+            </div>
+            <button type="button">Tenho interesse</button>
+          </li>
+
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <div>
+              <span>R$ 100.000,00</span>
+              <strong>R$ 75.000,00</strong>
+            </div>
+            <button type="button">Tenho interesse</button>
+          </li>
+
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <div>
+              <span>R$ 100.000,00</span>
+              <strong>R$ 75.000,00</strong>
+            </div>
+            <button type="button">Tenho interesse</button>
+          </li>
+
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <div>
+              <span>R$ 100.000,00</span>
+              <strong>R$ 75.000,00</strong>
+            </div>
+            <button type="button">Tenho interesse</button>
+          </li>
+
+          <li>
+            <img src="assets/carro-bmw.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <div>
+              <span>R$ 100.000,00</span>
+              <strong>R$ 75.000,00</strong>
+            </div>
+            <button type="button">Tenho interesse</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <form class="container">
+        <h2>Entre em contato</h2>
+
+        <div>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div>
+          <label for="tel">Telefone:</label>
+          <input type="tel" id="tel" required />
+        </div>
+
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div>
+          <label for="car">Veículo de interesse:</label>
+          <input type="text" id="car" disabled required />
+        </div>
+
+        <div>
+          <label for="textarea">Mensagem:</label>
+          <textarea id="textarea" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="container">
+        <span>2023 &copy; EBAC Motors - Todos os direitos reservados</span>
+
+        <ul class="footer-list">
+          <li>
+            <a href="#"
+              ><img src="assets/facebook.png" alt="facebook" title="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="assets/instagram.png"
+                alt="instagram"
+                title="Instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/youtube.png" alt="youtube" title="YouTube"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
     <script
       type="text/javascript"

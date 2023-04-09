@@ -5,9 +5,30 @@
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: #129659;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem;
+
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: italic;
+}
+
+button:hover {
+  opacity: 0.85;
 }
 
 .container {
@@ -18,8 +39,17 @@ a {
 }
 
 header {
-  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  padding: 1rem 0 0;
+
   background-color: #1b2a57;
+}
+
+#nav-container {
+  display: none;
 }
 
 nav {
@@ -31,6 +61,7 @@ nav {
 
 h1 {
   color: #fff;
+  margin-bottom: 0.25rem;
 }
 
 h1,
@@ -58,7 +89,7 @@ header > .container {
   background-color: #fff;
 }
 
-ul {
+.nav-list {
   display: flex;
   gap: 1.5rem;
   list-style: none;
@@ -67,4 +98,90 @@ ul {
 li a {
   font-size: 1.125rem;
   font-weight: 700;
+}
+
+section {
+  margin: 8rem 0;
+}
+
+.section-ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  width: 1fr;
+}
+
+li img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+strong {
+  font-size: 1.125rem;
+}
+
+li span {
+  color: #ccc;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: 700;
+}
+
+form div input {
+  padding: 0.5rem;
+
+  font-size: 1.125rem;
+}
+
+textarea {
+  resize: none;
+}
+
+form button {
+  padding: 0.25rem 2rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #1b2a57;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer span {
+  color: #fff;
+}
+
+.footer-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-list img {
+  width: 32px;
 }

@@ -3,4 +3,8 @@ $(document).ready(function () {
     arrows: false,
     autoplay: true,
   });
+
+  $(".menu").click(function () {
+    $("#nav-container").slideToggle();
+  });
 });
