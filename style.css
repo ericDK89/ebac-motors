@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+header {
+  padding: 1rem 0;
+  background-color: #1b2a57;
+}
+
+nav {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  background-color: #585fd0;
+}
+
+h1 {
+  color: #fff;
+}
+
+h1,
+li a {
+  color: #fbfeff;
+}
+
+ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+li a {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
