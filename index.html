@@ -102,7 +102,7 @@
       <div class="container">
         <h2>Promoções</h2>
 
-        <ul class="section-ul">
+        <ul class="section-ul" id="promotions-list">
           <li>
             <img src="assets/carro-bmw.png" />
             <h3>Carro BMW</h3>
@@ -111,7 +111,18 @@
               <span>R$ 100.000,00</span>
               <strong>R$ 75.000,00</strong>
             </div>
-            <button type="button">Tenho interesse</button>
+            <button type="button" data-car="BMW">Tenho interesse</button>
+          </li>
+
+          <li>
+            <img src="assets/fusca.png" />
+            <h3>Carro BMW</h3>
+            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
+            <div>
+              <span>R$ 100.000,00</span>
+              <strong>R$ 75.000,00</strong>
+            </div>
+            <button type="button" data-car="Fusca">Tenho interesse</button>
           </li>
 
           <li>
@@ -122,7 +133,7 @@
               <span>R$ 100.000,00</span>
               <strong>R$ 75.000,00</strong>
             </div>
-            <button type="button">Tenho interesse</button>
+            <button type="button" data-car="BMW">Tenho interesse</button>
           </li>
 
           <li>
@@ -133,7 +144,7 @@
               <span>R$ 100.000,00</span>
               <strong>R$ 75.000,00</strong>
             </div>
-            <button type="button">Tenho interesse</button>
+            <button type="button" data-car="BMW">Tenho interesse</button>
           </li>
 
           <li>
@@ -144,18 +155,7 @@
               <span>R$ 100.000,00</span>
               <strong>R$ 75.000,00</strong>
             </div>
-            <button type="button">Tenho interesse</button>
-          </li>
-
-          <li>
-            <img src="assets/carro-bmw.png" />
-            <h3>Carro BMW</h3>
-            <p>Câmbio automático, 4 portas, vidros e travas elétricas</p>
-            <div>
-              <span>R$ 100.000,00</span>
-              <strong>R$ 75.000,00</strong>
-            </div>
-            <button type="button">Tenho interesse</button>
+            <button type="button" data-car="BMW">Tenho interesse</button>
           </li>
         </ul>
       </div>
@@ -234,6 +234,7 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="jquery.mask.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

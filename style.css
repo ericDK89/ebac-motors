@@ -154,6 +154,11 @@ form div input {
   font-size: 1.125rem;
 }
 
+form input:disabled {
+  color: black;
+  cursor: not-allowed;
+}
+
 textarea {
   resize: none;
 }
