@@ -38,6 +38,26 @@ li a {
   color: #fbfeff;
 }
 
+header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  cursor: pointer;
+}
+
+.menu span {
+  height: 2px;
+  background-color: #fff;
+}
+
 ul {
   display: flex;
   gap: 1.5rem;
